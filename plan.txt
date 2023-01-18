@@ -1,0 +1,11 @@
+Explanation of Day-2 Work : 
+
+- Explored Use Cases of Socket.io in this Video Chat Application
+- Explored WebRTC Documentation and get some level of understandings about how it works
+- Got the basic flow of functionalities to be Documentation
+- Explored some videos of same projects
+- learned about Establishing signaling for offer and answer in WebRTC
+- Learned about SDP
+- Learned about UDP Protocol
+- Learned about Ice Servers and ICE Candidates
+- Got Some information about Private IP and Public IP
