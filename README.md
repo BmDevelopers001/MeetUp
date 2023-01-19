@@ -1,4 +1,4 @@
-# curvy-plant-804
+# MeetUp
 Real Time Video Chat Application
 
 This is Basic Video chatting Application majorly based on WebRTC.....
