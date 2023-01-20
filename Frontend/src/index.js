@@ -1,10 +1,10 @@
-const socket = io('http://localhost:8000/');
+// const socket = io('http://localhost:8000/');
 
 
 const roomID = document.getElementById('roomID');
 const joinRoom = document.getElementById('joinRoom');
 joinRoom.onclick = (e) => {
-    e.preventDefault()
+    e.preventDefault();  
 
     const RoomID = roomID.value;
 
@@ -13,8 +13,6 @@ joinRoom.onclick = (e) => {
     window.location.href = "./chat.html"
 }
 
-socket.on('user-join' , (data) => {
-    console.log(data);
-})
+
 
 
