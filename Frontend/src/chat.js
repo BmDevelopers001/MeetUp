@@ -1,4 +1,4 @@
-const socket = io('http://localhost:8000/');
+const socket = io('https://meetup-render-deploy.onrender.com/');
 const videoDiv = document.getElementById('videoDiv');
 const myPeer = new Peer(undefined, {
     host: '/',
@@ -24,9 +24,9 @@ navigator.mediaDevices.getUserMedia({
 
         //answered call and send our current stream
         call.answer(stream)
-        const video = document.createElement('video');
-
+        
         //responding to coming videoStream
+        const video = document.createElement('video');
         call.on('stream' , (userStream) => {
             addStream(video,userStream)
         })
