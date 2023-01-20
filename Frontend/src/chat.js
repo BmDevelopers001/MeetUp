@@ -1,9 +1,6 @@
 const socket = io('https://meetup-render-deploy.onrender.com/');
 const videoDiv = document.getElementById('videoDiv');
-const myPeer = new Peer(undefined, {
-    host: '/',
-    port: '3000'
-})
+const myPeer = new Peer()
 
 const video = document.createElement('video');
 video.muted = true;
