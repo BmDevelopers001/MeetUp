@@ -11,6 +11,10 @@ app.use(cors({
 
 const httpServer =  http.createServer(app)
 
+app.get("/start" , (req,res) => {
+    res.send("Welcome To MeetUp Server")
+})
+
 httpServer.listen(8000 , () => {
     console.log(`Server started at 8000`);
 })

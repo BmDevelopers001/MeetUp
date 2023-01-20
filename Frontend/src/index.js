@@ -1,4 +1,4 @@
-// const socket = io('http://localhost:8000/');
+const socket = io('https://meetup-render-deploy.onrender.com/');
 
 
 const roomID = document.getElementById('roomID');
