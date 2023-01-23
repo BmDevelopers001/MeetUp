@@ -19,7 +19,7 @@ body {
     display: grid;
     width: 80%;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 40px;
     justify-content: space-between;
     grid-template-columns: repeat(2,1fr);
     grid-auto-rows: auto;
