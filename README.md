@@ -14,3 +14,6 @@ Main Tech stacks and Tools used : HTML, CSS, JavaScript, NodeJS, ExpressJS, Mong
 2. Then join into room with same RoomId to get into same chat room.
 
 3. Provide Camera and Mic Permissions and Good to go with Video chat
+
+
+![Screenshot 2023-02-19 011346](https://user-images.githubusercontent.com/112689157/220262899-e02c3a79-818e-4c3d-ba7a-96fdaaa3c084.png)
